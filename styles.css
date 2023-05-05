@@ -1,0 +1,450 @@
+.header {
+  width: 100%;
+  background: blue;
+  height: 40px;
+  border: 6px solid black;
+}
+
+.section {
+  display: flex;
+  width: 100%;
+}
+
+.rightSection {
+  background: blue;
+  width: 50%;
+  height: 40px;
+
+  border: 6px solid black;
+}
+
+.leftSection {
+  background: blue;
+  width: 50%;
+  height: 40px;
+
+  border: 6px solid black;
+}
+
+.content {
+  height: 100%;
+  /* background: red; */
+  display: flex;
+}
+
+.leftContent {
+  width: 70%;
+  background: black;
+}
+
+.rightContent {
+  background: blue;
+  width: 30%;
+  border: 6px solid black;
+}
+
+.subLeftContent {
+  background: blue;
+  margin: 5px 5px 2px 5px;
+  height: 140px;
+  padding: 5px;
+}
+
+.isicontent {
+  background: orange;
+  height: 130px;
+  border: 5px solid black;
+}
+
+.divided3 {
+  display: flex;
+  width: 100%;
+}
+
+.secA {
+  background: blue;
+  height: 40px;
+  width: 33%;
+  border: 6px solid black;
+}
+.secB {
+  background: blue;
+  height: 40px;
+  width: 35%;
+
+  border: 6px solid black;
+}
+.secC {
+  background: blue;
+  height: 40px;
+  width: 33%;
+
+  border: 6px solid black;
+}
+
+.rightContentA {
+  height: 40px;
+  width: 98%;
+  border: 4px solid black;
+  background: orange;
+  margin: 3px;
+}
+.rightContentB {
+  height: 40px;
+  width: 98%;
+  border: 4px solid black;
+  background: orange;
+  margin: 3px;
+}
+.rightContentC {
+  height: 40px;
+  width: 98%;
+  border: 4px solid black;
+  background: orange;
+  margin: 3px;
+}
+
+.bottomSection {
+  height: 150px;
+  background: blue;
+  margin-top: 5px;
+  width: 60%;
+  border: 4px solid black;
+}
+
+.containerSubSectionA {
+  display: flex;
+  /* width: 100px; */
+  background: red;
+}
+.subButtonSectionA {
+  height: 40px;
+  width: 70px;
+  background: orange;
+}
+
+.subButtonSectionD {
+  height: 40px;
+  width: 70px;
+  background: orange;
+  /* float: right; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subButtonSectionB {
+  height: 70px;
+  width: 60px;
+  background: white;
+  margin-top: -20px;
+  margin-left: 30px;
+}
+
+.subButtonSectionC {
+  height: 40px;
+  width: 70px;
+  background: orange;
+  margin-top: -20px;
+  margin-left: 60px;
+}
+
+.desktop {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+
+  .headerMobile {
+    height: 50px;
+    width: 100%;
+    background: blue;
+    border: 4px solid black;
+  }
+  .firstSection {
+    height: 30px;
+    width: 100%;
+    background: blue;
+    border: 4px solid black;
+  }
+
+  .secondSection {
+    height: 30px;
+    width: 100%;
+    background: blue;
+    border: 4px solid black;
+  }
+
+  .subContent {
+    width: 100%;
+    background: blue;
+    height: 150px;
+    border: 4px solid black;
+    padding: 10px;
+  }
+
+  .isiSubContent {
+    /* width: 95%; */
+    background: orange;
+    height: 120px;
+    border: 4px solid black;
+  }
+
+  .dividedmobile3 {
+    display: flex;
+    width: 100%;
+  }
+
+  .dividedmobile3A {
+    width: 33%;
+    background: blue;
+    height: 40px;
+    border: 4px solid black;
+  }
+  .dividedmobile3B {
+    width: 33%;
+    background: blue;
+    height: 40px;
+    border: 4px solid black;
+  }
+  .dividedmobile3C {
+    width: 35%;
+    background: blue;
+    height: 40px;
+    border: 4px solid black;
+  }
+
+  .bottomSectionMobile {
+    width: 100%;
+    height: 100%;
+    background: blue;
+    padding: 5px;
+    display: flex;
+    border: 4px solid black;
+  }
+
+  .bottomSectionMobileA {
+    width: 33%;
+    background: orange;
+    height: 40px;
+    border: 4px solid black;
+  }
+
+  .bottomSectionMobileB {
+    width: 33%;
+    background: orange;
+    height: 40px;
+    border: 4px solid black;
+  }
+
+  .bottomSectionMobileC {
+    width: 35%;
+    background: orange;
+    height: 40px;
+    border: 4px solid black;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 960px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+
+  .headerMobile {
+    height: 50px;
+    width: 100%;
+    background: blue;
+    border: 4px solid black;
+  }
+  .firstSection {
+    height: 30px;
+    width: 100%;
+    background: blue;
+    border: 4px solid black;
+  }
+
+  .secondSection {
+    height: 30px;
+    width: 100%;
+    background: blue;
+    border: 4px solid black;
+  }
+
+  .subContent {
+    width: 100%;
+    background: blue;
+    height: 150px;
+    border: 4px solid black;
+    padding: 10px;
+  }
+
+  .isiSubContent {
+    /* width: 95%; */
+    background: orange;
+    height: 120px;
+    border: 4px solid black;
+  }
+
+  .dividedmobile3 {
+    display: flex;
+    width: 100%;
+  }
+
+  .dividedmobile3A {
+    width: 33%;
+    background: blue;
+    height: 40px;
+    border: 4px solid black;
+  }
+  .dividedmobile3B {
+    width: 33%;
+    background: blue;
+    height: 40px;
+    border: 4px solid black;
+  }
+  .dividedmobile3C {
+    width: 35%;
+    background: blue;
+    height: 40px;
+    border: 4px solid black;
+  }
+
+  .bottomSectionMobile {
+    width: 100%;
+    height: 100%;
+    background: blue;
+    padding: 5px;
+    display: flex;
+    border: 4px solid black;
+  }
+
+  .bottomSectionMobileA {
+    width: 33%;
+    background: orange;
+    height: 40px;
+    border: 4px solid black;
+  }
+
+  .bottomSectionMobileB {
+    width: 33%;
+    background: orange;
+    height: 40px;
+    border: 4px solid black;
+  }
+
+  .bottomSectionMobileC {
+    width: 35%;
+    background: orange;
+    height: 40px;
+    border: 4px solid black;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1024px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+
+  .headerMobile {
+    height: 50px;
+    width: 100%;
+    background: blue;
+    border: 4px solid black;
+  }
+  .firstSection {
+    height: 30px;
+    width: 100%;
+    background: blue;
+    border: 4px solid black;
+  }
+
+  .secondSection {
+    height: 30px;
+    width: 100%;
+    background: blue;
+    border: 4px solid black;
+  }
+
+  .subContent {
+    width: 100%;
+    background: blue;
+    height: 150px;
+    border: 4px solid black;
+    padding: 10px;
+  }
+
+  .isiSubContent {
+    /* width: 95%; */
+    background: orange;
+    height: 120px;
+    border: 4px solid black;
+  }
+
+  .dividedmobile3 {
+    display: flex;
+    width: 100%;
+  }
+
+  .dividedmobile3A {
+    width: 33%;
+    background: blue;
+    height: 40px;
+    border: 4px solid black;
+  }
+  .dividedmobile3B {
+    width: 33%;
+    background: blue;
+    height: 40px;
+    border: 4px solid black;
+  }
+  .dividedmobile3C {
+    width: 35%;
+    background: blue;
+    height: 40px;
+    border: 4px solid black;
+  }
+
+  .bottomSectionMobile {
+    width: 100%;
+    height: 100%;
+    background: blue;
+    padding: 5px;
+    display: flex;
+    border: 4px solid black;
+  }
+
+  .bottomSectionMobileA {
+    width: 33%;
+    background: orange;
+    height: 40px;
+    border: 4px solid black;
+  }
+
+  .bottomSectionMobileB {
+    width: 33%;
+    background: orange;
+    height: 40px;
+    border: 4px solid black;
+  }
+
+  .bottomSectionMobileC {
+    width: 35%;
+    background: orange;
+    height: 40px;
+    border: 4px solid black;
+  }
+}

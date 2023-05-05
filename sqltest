@@ -1,0 +1,5 @@
+query show item from tble asset
+select item from Asset
+
+query show result 2
+select US.user_id,AS.item from Asset as "AS" inner join User as "US" on US.user_id = AS.user_id group by user_id

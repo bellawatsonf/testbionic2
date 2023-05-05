@@ -1,0 +1,15 @@
+cypress adalah tools testing front end untuk menguji performa suatu website
+kubernetes adalah platform untuk mengelola cluster server
+orm adalah pengkuerian yg dilakukan pada sistem object oriented
+class adalah sebuah blue print dimana didlm class terdapat function function
+function adalah suatu blok code yg dibuat untuk melakukan sebuah fungsi/tugas tertentu
+docker adalah platform untuk menyatukan sebuah code yg dikerjakan beberapa developer dari macam2 OS sehingga code tersebut dapat dijalankan dengan baik dan sesuai
+
+
+architecture application
+Microservices Architecture, untuk membangun aplikasi di mana aplikasi tersebut terdiri dari beberapa layanan kecil dan independen yang bekerja bersama.
+
+Serverless Architecture ,penyedia cloud mengelola infrastruktur dan secara otomatis mengalokasikan dan menskalakan sumber daya yang diperlukan untuk menjalankan aplikasi
+
+Event-driven Architecture ,Arsitektur ini populer dalam aplikasi berbasis peristiwa seperti aplikasi chat, pemrosesan data real-time, dan perangkat IoT.
+
